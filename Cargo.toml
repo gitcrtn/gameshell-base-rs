@@ -1,0 +1,11 @@
+[package]
+name = "gameshell_base"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.19"
+imagesize = "0.10.0"
+lazy_static = "1.4.0"
+sdl2 = { version = "0.35.2", default-features = false, features = ["image", "unsafe_textures", "mixer"] }
+specs = { version = "0.18.0", features = ["specs-derive"] }
